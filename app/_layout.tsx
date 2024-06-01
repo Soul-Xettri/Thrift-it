@@ -13,7 +13,9 @@ SplashScreen.preventAutoHideAsync();
 export default function RootLayout() {
   const colorScheme = useColorScheme();
   const [loaded] = useFonts({
-    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+    "Proxima": require('../assets/fonts/Proxima-Nova-Regular.otf'),
+    "Proxima-Bold": require('../assets/fonts/Proxima-Nova-Bold.otf'),
+    "Proxima-SemiBold": require('../assets/fonts/Proxima-Nova-Semibold.otf'),
   });
 
   useEffect(() => {
